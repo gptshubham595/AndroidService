@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         // Start the foreground service
-        val serviceIntent = Intent(this, ForegroundService::class.java)
+        val serviceIntent = Intent(this, ForegroundUnBoundService::class.java)
         ContextCompat.startForegroundService(this, serviceIntent)
     }
 }

@@ -28,7 +28,8 @@
         </activity>
 
         <service
-            android:name=".ForegroundService"
+            android:name=".ForegroundUnBoundService"
+            android:foregroundServiceType="location"
             />
 
     </application>

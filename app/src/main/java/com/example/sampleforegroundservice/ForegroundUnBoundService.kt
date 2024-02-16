@@ -10,7 +10,7 @@ import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import androidx.lifecycle.LifecycleService
 
-class ForegroundService : LifecycleService() {
+class ForegroundUnBoundService : LifecycleService() {
 
     private val CHANNEL_ID = "ForegroundServiceChannel"
 
