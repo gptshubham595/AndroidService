@@ -1,4 +1,4 @@
-package com.example.sampleforegroundservice
+package com.example.sampleservice
 
 import org.junit.Test
 

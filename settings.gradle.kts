@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SampleForegroundService"
+rootProject.name = "sampleservice"
 include(":app")
  

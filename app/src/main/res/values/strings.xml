@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">SampleForegroundService</string>
+    <string name="app_name">sampleservice</string>
 </resources>
